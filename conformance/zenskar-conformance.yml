@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: derived
+source: https://docs.zenskar.com/reference
+notes: >-
+  Derived from Zenskar's public API reference and documentation. No OpenAPI spec
+  was publicly retrievable (the spec is auth-gated at api.zenskar.com), so
+  standards are asserted from documented behavior only.
+standards:
+- id: idempotency
+  conforms: true
+  evidence: dedicated "Idempotent requests" reference page (https://docs.zenskar.com/reference/idempotent-requests)
+- id: cursor-pagination
+  conforms: true
+  evidence: list endpoints use next/previous cursor + limit pagination
+- id: saml2-sso
+  conforms: true
+  evidence: SAML authentication (Google Workspace, Microsoft Entra ID), SSO, and 2FA documented for dashboard access
+- id: api-key-auth
+  conforms: true
+  evidence: x-api-key header authentication documented
+- id: bearer-jwt
+  conforms: true
+  evidence: MCP server accepts Authorization Bearer JWT tokens
+- id: webhooks
+  conforms: true
+  evidence: webhook alerts documented (https://docs.zenskar.com/docs/webhook-alerts)
+- id: mcp
+  conforms: true
+  evidence: official hosted MCP server with 103 tools (https://docs.zenskar.com/docs/mcp-reference)
+- id: rfc9457-problem-details
+  conforms: unknown
+  evidence: not confirmed from public docs
+- id: oauth2
+  conforms: false
+  evidence: REST API uses API-key auth, not OAuth2

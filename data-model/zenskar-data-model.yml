@@ -1,0 +1,96 @@
+generated: '2026-07-21'
+method: derived
+source: https://docs.zenskar.com/reference
+notes: >-
+  Entity graph derived from Zenskar's public API object reference (the OpenAPI
+  spec is auth-gated and was not retrievable). Relationships are inferred from
+  documented endpoint descriptions and resource nesting; field-level id prefixes
+  are not published publicly.
+entities:
+- name: customer
+  description: Account being billed; root of most billing relationships.
+- name: contact
+  description: Contact person associated with an organisation/customer.
+- name: address
+  description: Billing/shipping address on a customer or contact.
+- name: payment_method
+  description: Stored payment instrument for a customer.
+- name: contract
+  description: Revenue agreement with a customer; foundation for billing, invoicing, and revenue recognition. Composed of phases with products and pricing.
+- name: contract_phase
+  description: Time-bounded phase within a contract carrying products and pricing.
+- name: plan
+  description: Reusable template a contract can be created from.
+- name: product
+  description: Billable product definition with a pricing model.
+- name: billable_metric
+  description: Aggregate definition over usage events (metering).
+- name: usage_event
+  description: Raw metered usage record ingested via API/CSV/connectors.
+- name: invoice
+  description: Generated billing document.
+- name: credit_note
+  description: Credit issued against invoices; has line items.
+- name: payment
+  description: Payment applied against invoices.
+- name: quote
+  description: Pre-contract commercial quote.
+- name: business_entity
+  description: Legal billing entity; carries per-country/currency region configs.
+- name: region_config
+  description: Per-country/currency configuration under a business entity.
+- name: account
+  description: General-ledger account within the chart of accounts.
+- name: journal_entry
+  description: Accounting journal entry; composed of journal lines.
+- name: accounting_period
+  description: Closable accounting period.
+relationships:
+- from: contract
+  to: customer
+  type: belongs_to
+  via: customer_id
+- from: contract
+  to: contract_phase
+  type: has_many
+  via: phases
+- from: contract_phase
+  to: product
+  type: has_many
+  via: products
+- from: contract
+  to: plan
+  type: belongs_to
+  via: plan
+- from: credit_note
+  to: line_item
+  type: has_many
+  via: line_items
+- from: business_entity
+  to: region_config
+  type: has_many
+  via: config
+- from: journal_entry
+  to: journal_line
+  type: has_many
+  via: lines
+- from: account
+  to: chart_of_accounts
+  type: belongs_to
+  via: chart_of_accounts
+- from: billable_metric
+  to: usage_event
+  type: has_many
+  via: aggregation
+- from: invoice
+  to: customer
+  type: belongs_to
+  via: customer
+- from: payment
+  to: invoice
+  type: belongs_to
+  via: invoice
+- from: contact
+  to: customer
+  type: belongs_to
+  via: customer

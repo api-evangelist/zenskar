@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.zenskar.com/reference/authentication
+docs: https://docs.zenskar.com/reference/authentication
+notes: >-
+  Zenskar's REST API is key-authenticated. API keys are created and managed from
+  the Zenskar dashboard (see https://docs.zenskar.com/docs/how-to-manage-api-keys).
+  The same credential model is used by the Zenskar MCP server, which auto-detects
+  the token type: JWT tokens (format eyJ...) are sent as `Authorization: Bearer <token>`,
+  while API keys are sent via the `x-api-key: <token>` header. Dashboard/console access
+  additionally supports SAML SSO, single sign-on, and two-factor authentication.
+summary:
+  types: [apiKey, http]
+  api_key_in: [header]
+  api_key_headers: [x-api-key]
+  http_schemes: [bearer]
+  oauth2_flows: []
+  dashboard_sso: [SAML 2.0, SSO, 2FA]
+schemes:
+- name: ApiKeyAuth
+  type: apiKey
+  in: header
+  parameter_name: x-api-key
+  description: >-
+    Organisation API key passed in the x-api-key header. Created and rotated from
+    the Zenskar dashboard (Settings -> API keys).
+  sources: [https://docs.zenskar.com/reference/authentication]
+- name: BearerAuth
+  type: http
+  scheme: bearer
+  bearer_format: JWT
+  description: >-
+    JWT bearer token (format eyJ...) accepted by the API / MCP server as
+    `Authorization: Bearer <token>`.
+  sources: [https://docs.zenskar.com/docs/mcp-reference]

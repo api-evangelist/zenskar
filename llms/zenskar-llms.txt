@@ -1,0 +1,309 @@
+# Zenskar Documentation
+
+> Documentation for Zenskar
+
+## Guides
+- [Introduction to Zenskar](https://docs.zenskar.com/docs/introduction-to-zenskar.md)
+- [Quickstart guide](https://docs.zenskar.com/docs/quickstart-guide.md)
+- [Step 1: Add a customer](https://docs.zenskar.com/docs/quickstart-add-a-customer.md)
+- [Step 2: Ingest usage events via API](https://docs.zenskar.com/docs/quickstart-ingest-usage-events-api.md)
+- [Step 3: Define billable metrics](https://docs.zenskar.com/docs/quickstart-define-billable-metrics.md)
+- [Step 4: Create contract and add products](https://docs.zenskar.com/docs/quickstart-create-contract-products.md)
+- [Step 5: Generate invoice](https://docs.zenskar.com/docs/quickstart-generate-invoice.md)
+- [Customer](https://docs.zenskar.com/docs/customer-1.md)
+- [Customer-facing portal](https://docs.zenskar.com/docs/customer-facing-portal.md): Provides your customers complete information about their accounts.
+- [Contract](https://docs.zenskar.com/docs/contract.md)
+- [How-to: Create a contract via dashboard](https://docs.zenskar.com/docs/create-a-contract-using-the-zenskar-dashboard.md)
+- [How-to: Create a plan-based contract via dashboard](https://docs.zenskar.com/docs/create-a-contract-from-a-plan-using-the-zenskar-dashboard.md)
+- [How-to: Create a contract via AI](https://docs.zenskar.com/docs/create-a-contract-via-ai.md)
+- [Contract renewal](https://docs.zenskar.com/docs/contract-renewal.md)
+- [Plan](https://docs.zenskar.com/docs/plan.md)
+- [Product](https://docs.zenskar.com/docs/product.md)
+- [Pricing models](https://docs.zenskar.com/docs/pricing-models.md): Zenskar supports a wide range of flexible pricing models to handle complex billing scenarios.
+- [Usage event](https://docs.zenskar.com/docs/usage-event.md)
+- [How-to: Ingest usage events](https://docs.zenskar.com/docs/data-ingestion-via-apis.md)
+- [How-to: Ingest usage events via CSV upload](https://docs.zenskar.com/docs/data-ingestion-via-zenskar-compatible-csv-file.md)
+- [How-to: Ingest usage events via dashboard](https://docs.zenskar.com/docs/web-form-for-manual-raw-metrics.md)
+- [How-to: Edit historical data](https://docs.zenskar.com/docs/how-to-edit-historical-data.md)
+- [Data ingestion](https://docs.zenskar.com/docs/how-zenskar-ingests-data.md)
+- [How-to: Ingest usage events via data sync connectors](https://docs.zenskar.com/docs/data-ingestion-via-data-source-connectors.md): Zenskar connects with your data source, such as a database, data warehouse, comma-separated-value file, or spreadsheet.
+- [How-to: Execute remote queries on data source](https://docs.zenskar.com/docs/data-ingestion-via-remote-query.md)
+- [How-to: Set up S3 Event Sync](https://docs.zenskar.com/docs/how-to-set-up-s3-event-sync.md)
+- [How-to: Handle ingestion failures](https://docs.zenskar.com/docs/handle-usage-event-ingestion-failures.md)
+- [Billable metrics](https://docs.zenskar.com/docs/billable-metrics.md)
+- [Create a revenue recognition rule](https://docs.zenskar.com/docs/create-a-revenue-recognition-rule.md)
+- [Chart of accounts](https://docs.zenskar.com/docs/chart-of-accounts.md)
+- [ASC 606 and IFRS 15: Five steps of revenue recognition](https://docs.zenskar.com/docs/revenue-recognition.md)
+- [Revenue distribution and redistribution methods](https://docs.zenskar.com/docs/revenue-distribution-and-redistribution-methods.md)
+- [Performance obligation policies](https://docs.zenskar.com/docs/performance-obligation-policies.md)
+- [Revenue lifecycle](https://docs.zenskar.com/docs/revenue-lifecycle.md)
+- [Revenue distribution methods](https://docs.zenskar.com/docs/revenue-distribution-methods.md)
+- [Revenue adjustment methods](https://docs.zenskar.com/docs/revenue-adjustment-methods.md)
+- [Monitoring](https://docs.zenskar.com/docs/monitoring.md)
+- [Create custom dashboards](https://docs.zenskar.com/docs/create-custom-dashboards.md)
+- [Revenue analytics](https://docs.zenskar.com/docs/revenue-analytics.md)
+- [Monthly recurring revenue](https://docs.zenskar.com/docs/monthly-recurring-revenue.md)
+- [Monthly recurring revenue by product](https://docs.zenskar.com/docs/monthly-recurring-revenue-by-product.md)
+- [Net revenue retention](https://docs.zenskar.com/docs/net-revenue-retention.md)
+- [Gross revenue retention](https://docs.zenskar.com/docs/gross-revenue-retention.md)
+- [MRR product waterfall](https://docs.zenskar.com/docs/mrr-product-waterfall.md)
+- [MRR customer waterfall](https://docs.zenskar.com/docs/mrr-customer-waterfall.md)
+- [Net annual recurring revenue](https://docs.zenskar.com/docs/net-annual-recurring-revenue.md)
+- [Invoices](https://docs.zenskar.com/docs/invoices-analytics.md)
+- [Payments](https://docs.zenskar.com/docs/payment-analytics.md)
+- [Invoices](https://docs.zenskar.com/docs/invoices-explainer.md)
+- [How to edit an invoice](https://docs.zenskar.com/docs/how-to-edit-an-invoice.md)
+- [Life cycle of an invoice](https://docs.zenskar.com/docs/life-cycle-of-an-invoice.md)
+- [Create invoices](https://docs.zenskar.com/docs/generating-invoices-in-zenskar.md): From zero to invoice.
+- [Create one-off invoices](https://docs.zenskar.com/docs/create-one-off-invoices.md)
+- [Credit notes](https://docs.zenskar.com/docs/credit-notes.md)
+- [Payments](https://docs.zenskar.com/docs/payments.md)
+- [Payment Methods](https://docs.zenskar.com/docs/payment-methods.md)
+- [Default Payment Method](https://docs.zenskar.com/docs/default-payment-method.md)
+- [Payment Gateways](https://docs.zenskar.com/docs/payment-gateways.md): Payment gateways
+- [Custom attributes: Extensibility guide](https://docs.zenskar.com/docs/custom-attributes-extensibility-guide.md)
+- [How to manage API keys](https://docs.zenskar.com/docs/how-to-manage-api-keys.md)
+- [SAML authentication](https://docs.zenskar.com/docs/saml-authentication.md): Single sign-on based on Security Assertion Markup Language
+- [SAML authentication with Google Workspace](https://docs.zenskar.com/docs/saml-authentication-with-google-workspace.md): Single sign-on based on Security Assertion Markup Language
+- [SAML authentication with Microsoft Entra ID](https://docs.zenskar.com/docs/saml-authentication-with-microsoft-entra-id.md)
+- [Single sign-on authentication](https://docs.zenskar.com/docs/single-sign-on-authentication.md)
+- [Two-factor authentication](https://docs.zenskar.com/docs/two-factor-authentication.md): Strengthening authentication.
+- [Webhook alerts](https://docs.zenskar.com/docs/webhook-alerts.md): A webhook is an HTTP-based callback function that allows lightweight, event-driven communication between two application programming interfaces (APIs).
+- [Entitlements](https://docs.zenskar.com/docs/entitlements.md): Entitlements refer to services or products that your customers are entitled to.
+- [Role-based access control](https://docs.zenskar.com/docs/role-based-access-control.md)
+- [Users](https://docs.zenskar.com/docs/users.md)
+- [Roles](https://docs.zenskar.com/docs/roles.md)
+- [Email templates](https://docs.zenskar.com/docs/email-templates.md)
+- [Email alerts](https://docs.zenskar.com/docs/email-alerts.md): Configure automated email alerts for segments of customers.
+- [Usage alerts](https://docs.zenskar.com/docs/usage-alerts.md): Entitlement-usage alerts.
+- [Document templates](https://docs.zenskar.com/docs/document-templates.md)
+- [Segments](https://docs.zenskar.com/docs/segments.md)
+- [Senders](https://docs.zenskar.com/docs/senders.md): Add and authenticate senders who can send emails and notifications to your customers.
+- [Business entities](https://docs.zenskar.com/docs/business-entities.md): A business entity is a company wholly controlled by another company called a holding company or parent.
+- [  Core concepts](https://docs.zenskar.com/docs/mcp-core-concepts.md)
+- [Quickstart guides](https://docs.zenskar.com/docs/mcp-quickstart-guides.md)
+- [How-to guides](https://docs.zenskar.com/docs/mcp-how-to-guides.md)
+- [Reference](https://docs.zenskar.com/docs/mcp-reference.md)
+- [Flat-fee pricing](https://docs.zenskar.com/docs/flat-fee-pricing.md)
+- [Matrix pricing](https://docs.zenskar.com/docs/matrix-pricing.md)
+- [Per-unit pricing](https://docs.zenskar.com/docs/per-unit-pricing.md)
+- [Percent pricing](https://docs.zenskar.com/docs/percent-pricing.md)
+- [Step pricing](https://docs.zenskar.com/docs/step-pricing.md)
+- [Tiered pricing](https://docs.zenskar.com/docs/tiered-pricing.md)
+- [Tiered pricing with flat fee](https://docs.zenskar.com/docs/tiered-pricing-with-flat-fee.md)
+- [Two-dimensional tiered pricing](https://docs.zenskar.com/docs/two-dimensional-tiered-pricing.md)
+- [Volume pricing](https://docs.zenskar.com/docs/volume-pricing.md)
+- [Volume pricing with flat fee](https://docs.zenskar.com/docs/volume-pricing-with-flat-fee.md)
+- [What does Zenskar pilot program entail?](https://docs.zenskar.com/docs/what-does-a-zenskar-pilot-program-entail.md)
+- [What does Zenskar implementation entail?](https://docs.zenskar.com/docs/what-does-zenskar-implementation-entail.md)
+- [Data migration and integration options](https://docs.zenskar.com/docs/data-migration-and-integration-options.md)
+- [Integrating your ERP software with Zenskar](https://docs.zenskar.com/docs/integrating-your-erp-with-zenskar.md): Double-entry accounting in Zenskar.
+- [Prepaid commitment with postpaid overages](https://docs.zenskar.com/docs/prepaid-commitment-with-postpaid-overages.md): An example-based guide that helps you create a prepaid-commitment-with-postpaid-overages contract and generate invoices
+- [Prepaid subscription with postpaid overages](https://docs.zenskar.com/docs/prepaid-subscription-with-postpaid-overages.md): An example-based guide that helps you create a prepaid-subscription-with-postpaid-overages contract and generate invoices
+- [DealHub](https://docs.zenskar.com/docs/third-party-integration-dealhub.md): Streamline your quote-to-revenue process. Issue proposals, close deals, manage contracts, and automate your subscriptions and billing in one unified platform.
+- [HubSpot](https://docs.zenskar.com/docs/third-party-integration-hubspot.md)
+- [Microsoft Dynamics 365](https://docs.zenskar.com/docs/third-party-integration-microsoft-dynamics-365.md)
+- [Pipedrive](https://docs.zenskar.com/docs/third-party-integration-pipedrive.md): The first CRM designed by salespeople, for salespeople. Do more to grow your business.
+- [Salesforce](https://docs.zenskar.com/docs/third-party-integration-salesforce.md)
+- [Installation and setup of Zenskar’s package for Salesforce](https://docs.zenskar.com/docs/installation-and-setup-of-zenskar-package-for-salesforce.md)
+- [Use default Flow](https://docs.zenskar.com/docs/salesforce-integration-use-default-flow.md)
+- [Create your own Flow](https://docs.zenskar.com/docs/salesforce-integration-create-new-flow.md): You can use Package Components to create Flows tailored to your Workflows and Setup. The following includes examples, Apex Actions, and Apex Classes that can be utilized to design these Flows.
+- [NetSuite](https://docs.zenskar.com/docs/third-party-integration-netsuite.md)
+- [QuickBooks](https://docs.zenskar.com/docs/third-party-integration-quickbooks.md)
+- [Sage](https://docs.zenskar.com/docs/third-party-integration-sage.md): Business management tools and insights.
+- [SAP](https://docs.zenskar.com/docs/third-party-integration-sap.md): Enterprise software to manage business operations and customer relations.
+- [Xero](https://docs.zenskar.com/docs/third-party-integration-xero.md): Accounting software for everyday business.
+- [Zoho Books](https://docs.zenskar.com/docs/third-party-integration-zoho-books.md)
+- [Adyen](https://docs.zenskar.com/docs/third-party-integration-adyen.md)
+- [Razorpay](https://docs.zenskar.com/docs/third-party-integration-razorpay.md)
+- [Stripe](https://docs.zenskar.com/docs/third-party-integration-stripe.md)
+- [Anrok](https://docs.zenskar.com/docs/third-party-integration-anrok.md)
+- [Avalara AvaTax](https://docs.zenskar.com/docs/third-party-integration-avalara-avatax.md)
+- [Stripe Tax](https://docs.zenskar.com/docs/third-party-integration-stripe-tax.md): Automate sales tax, VAT, and GST compliance on all your transactions—low or no code integrations available.
+- [Auth0](https://docs.zenskar.com/docs/data-source-connector-for-auth0.md)
+- [Amazon Athena](https://docs.zenskar.com/docs/data-source-connector-for-aws-athena.md)
+- [BigQuery](https://docs.zenskar.com/docs/data-source-connector-for-bigquery.md)
+- [ClickHouse](https://docs.zenskar.com/docs/data-source-connector-for-clickhouse.md)
+- [CockroachDB](https://docs.zenskar.com/docs/data-source-connector-for-cockroachdb.md)
+- [Databricks Lakehouse](https://docs.zenskar.com/docs/databricks-lakehouse.md)
+- [Google Sheets](https://docs.zenskar.com/docs/data-source-connector-for-google-sheets.md)
+- [Looker](https://docs.zenskar.com/docs/looker.md)
+- [Metabase](https://docs.zenskar.com/docs/data-source-connector-for-metabase.md)
+- [MongoDB](https://docs.zenskar.com/docs/data-source-connector-for-mongodb.md)
+- [MySQL](https://docs.zenskar.com/docs/data-source-connector-for-mysql.md)
+- [PostgreSQL](https://docs.zenskar.com/docs/data-source-connector-for-postgresql.md)
+- [QuickBooks](https://docs.zenskar.com/docs/data-source-connector-for-quickbooks.md): QuickBooks is online accounting software for small businesses.
+- [Shopify](https://docs.zenskar.com/docs/data-source-connector-for-shopify.md)
+- [Snowflake](https://docs.zenskar.com/docs/data-source-connector-for-snowflake.md): Data platform as a self-managed service.
+- [Set up Snowflake for integration with Zenskar](https://docs.zenskar.com/docs/set-up-snowflake-for-integration-with-zenskar.md): Preparing Snowflake for integration.
+- [Configure Zenskar's Snowflake connector](https://docs.zenskar.com/docs/configure-zenskar-snowflake-connector.md): Configuration settings for the connector.
+- [CoinAPI](https://docs.zenskar.com/docs/data-source-connector-for-coinapi.md)
+- [Zenskar IPs](https://docs.zenskar.com/docs/zenskar-ips.md)
+
+## API Reference
+- [Authentication](https://docs.zenskar.com/reference/authentication.md)
+- [DateTime format](https://docs.zenskar.com/reference/datetime-format.md)
+- [Idempotent requests](https://docs.zenskar.com/reference/idempotent-requests.md)
+- [Get chart of accounts](https://docs.zenskar.com/reference/get-chart-of-accounts.md): Get the chart of accounts for an organisation.
+- [Create account](https://docs.zenskar.com/reference/create-account.md): Create a new account for an organisation.
+- [Get accounts](https://docs.zenskar.com/reference/get-accounts.md): Fetch accounts for an organisation with optional filters and pagination.
+- [Create close date](https://docs.zenskar.com/reference/create-close-date.md): Create a close date for an organisation.
+- [Get close date](https://docs.zenskar.com/reference/get-close-date.md): Fetch the close date for an organisation.
+- [Update close date](https://docs.zenskar.com/reference/update-close-date.md): Update the close date for an organisation.
+- [Create journal entry](https://docs.zenskar.com/reference/create-journal-entry.md): Create a journal entry for an organisation.
+- [Update journal entry](https://docs.zenskar.com/reference/update-journal-entry.md): Update a journal entry by its unique identifier for an organisation.
+- [Get journal entry](https://docs.zenskar.com/reference/get-journal-entry.md): Fetch a journal entry by its unique identifier for an organisation.
+- [Get account balance by tag](https://docs.zenskar.com/reference/get-account-balance-by-tag.md): Fetch the balance of an account by its ID and optional filters.
+- [Get journal entries](https://docs.zenskar.com/reference/get-journal-entries.md): Fetch journal entries for an organisation with optional filters and pagination.
+- [Get journal lines](https://docs.zenskar.com/reference/get-journal-lines.md): Fetch journal lines for an organisation with optional filters and pagination.
+- [Get balance sheet](https://docs.zenskar.com/reference/get-balance-sheet.md): Fetch the balance sheet for an organisation with optional filters and pagination.
+- [Get income statement](https://docs.zenskar.com/reference/get-income-statement.md): Fetch the income statement for an organisation with optional filters and pagination.
+- [Validate period close](https://docs.zenskar.com/reference/validate-period-close.md): Validate prerequisites for closing an accounting period without actually closing it. Returns a comprehensive checklist of what needs to be fixed.
+- [Close accounting period](https://docs.zenskar.com/reference/close-accounting-period.md): Close an accounting period after validating all prerequisites. Once closed, no modifications can be made to transactions within the period.
+- [Get accounting periods](https://docs.zenskar.com/reference/get-accounting-periods.md): Fetch all closed accounting periods for an organisation with pagination.
+- [Get last closed period](https://docs.zenskar.com/reference/get-last-closed-period.md): Fetch the most recent closed accounting period for an organisation.
+- [Get accounting period](https://docs.zenskar.com/reference/get-accounting-period.md): Fetch a single accounting period by ID.
+- [List billable metrics](https://docs.zenskar.com/reference/list-billable-metrics.md): List aggregates with optional filtering, sorting, and pagination.
+- [Create billable metric](https://docs.zenskar.com/reference/create-billable-metric.md): Create a new aggregate with the provided details.
+- [Get aggregate estimates for a period](https://docs.zenskar.com/reference/get-aggregate-estimates-for-a-period.md): Get estimates for a specific aggregate and customer within a date range.
+- [Get billable metric](https://docs.zenskar.com/reference/get-billable-metric.md): Fetch a specific aggregate by its ID.
+- [Update aggregate](https://docs.zenskar.com/reference/update-aggregate.md): Update an existing aggregate by its ID.
+- [Delete aggregate](https://docs.zenskar.com/reference/delete-aggregate.md): Delete an existing aggregate by its ID.
+- [List business entities](https://docs.zenskar.com/reference/list-business-entities.md): List business entities with pagination, filtering, and sorting options.
+- [Create business entity](https://docs.zenskar.com/reference/create-business-entity.md): Create a new business entity with the provided details.
+- [Get business entity](https://docs.zenskar.com/reference/get-business-entity.md): Fetch a business entity by its ID.
+- [Update business entity](https://docs.zenskar.com/reference/update-business-entity.md): Update an existing business entity with the provided details.
+- [Get business entity config](https://docs.zenskar.com/reference/get-business-entity-config.md): List all per-country/currency configs for a business entity.
+- [Set business entity config](https://docs.zenskar.com/reference/set-business-entity-config.md): Replace all configs for a business entity. Each item is one country/currency row.
+- [Get region config](https://docs.zenskar.com/reference/get-region-config.md): Get all configs for a specific country for a business entity.
+- [Upsert region config](https://docs.zenskar.com/reference/upsert-region-config.md): Insert or update a config for a specific country/currency.
+- [Delete region config](https://docs.zenskar.com/reference/delete-region-config.md): Soft-delete all configs for a specific country for a business entity.
+- [Get credit note list](https://docs.zenskar.com/reference/get-credit-note-list.md): List credit notes given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create credit note](https://docs.zenskar.com/reference/create-credit-note.md): Creates a credit note for the given organisation. The credit note will be associated with the organisation.
+- [Get credit note by ID](https://docs.zenskar.com/reference/get-credit-note-by-id.md): Fetch a credit note by its ID. The credit note will be associated with the organisation.
+- [Update credit note by ID](https://docs.zenskar.com/reference/update-credit-note-by-id.md): Update an existing credit note with the provided details. The credit note will be associated with the organisation.
+- [Get line items by credit note ID](https://docs.zenskar.com/reference/get-line-items-by-credit-note-id.md): Fetch line items associated with a specific credit note ID.
+- [List contacts](https://docs.zenskar.com/reference/list-contacts.md): List contacts given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create contact](https://docs.zenskar.com/reference/create-contact.md): Creates a contact for the given organisation. The contact will be associated with the organisation.
+- [Get contact](https://docs.zenskar.com/reference/get-contact.md): Fetch a contact by its ID. The contact will be associated with the organisation.
+- [Update contact](https://docs.zenskar.com/reference/update-contact.md): Update an existing contact with the provided details. The contact will be associated with the organisation.
+- [Delete contact](https://docs.zenskar.com/reference/delete-contact.md): Delete a contact by its ID. The contact will be associated with the organisation.
+- [List contracts](https://docs.zenskar.com/reference/list-contracts.md): Retrieve a paginated list of contracts for your organization.  Returns contracts with comprehensive details including customer information, phases, products, and pricing. Supports filtering by customer, status, dates, and custom attributes. Results are sorted by creation date (newest first) by default.  Use cursor-based pagination to navigate through results. If no cursor is provided, returns the first page of results.
+- [Create contract](https://docs.zenskar.com/reference/create-contract.md): Creates a new contract in Zenskar. Contracts represent revenue agreements with customers and serve as the foundation for billing, invoicing, and revenue recognition.  A contract defines commercial terms including pricing models, service periods, and billing cycles. Required fields are customer_id, name, status, currency, start_date, and at least one phase—all other fields are optional.
+- [Get contract by ID](https://docs.zenskar.com/reference/get-contract-by-id.md): Retrieve detailed information for a specific contract by its unique identifier.  Returns comprehensive contract data including basic information, customer details, contract phases with products and pricing, custom attributes, and timestamps.
+- [Update contract](https://docs.zenskar.com/reference/update-contract.md): Update an existing contract with new details.  Allows modification of contract terms including name, status, dates, currency, customer, phases, and custom attributes. All fields from the create schema are supported. This operation replaces the entire contract, so include all fields you want to retain.
+- [Delete contract](https://docs.zenskar.com/reference/delete-contract.md): Delete a contract by its ID, a contract must not be active to be deleted.
+- [Get contract amendments](https://docs.zenskar.com/reference/get-contract-amendments.md): Get all amendments for a contract
+- [Create contract phase](https://docs.zenskar.com/reference/create-contract-phase.md): Create a new phase for an existing contract
+- [Pause contract](https://docs.zenskar.com/reference/pause-contract.md): Pause an existing contract.
+- [Update pause contract](https://docs.zenskar.com/reference/update-pause-contract.md): Edit the pause of an existing contract.
+- [Resume contract](https://docs.zenskar.com/reference/resume-contract.md): Resume the pause of an existing contract.
+- [Create contract phase pricing](https://docs.zenskar.com/reference/create-contract-phase-pricing.md): Create a new pricing association for a contract phase
+- [Expire contract](https://docs.zenskar.com/reference/expire-contract.md): Expire a contract by its ID. The contract will be marked as expired and adjusted to the specified expiry date (or today if not provided). The expiry time is automatically set to end of day (23:59:59.999999).
+- [Create custom attribute definition](https://docs.zenskar.com/reference/create-custom-attribute-definition.md): Create a new custom attribute definition for an organisation, or a specific business entity within it.
+- [List custom attribute definitions](https://docs.zenskar.com/reference/list-custom-attribute-definitions.md): List custom attribute definitions for an organisation.     If module is provided, returns definitions for that specific module.     If business_entity_id is provided, returns org defaults with business entity overrides.     Business entity overrides take precedence over org defaults for the same attribute.
+- [Get custom attribute definition](https://docs.zenskar.com/reference/get-custom-attribute-definition.md): Retrieve a specific custom attribute definition by its ID.
+- [Update custom attribute definition](https://docs.zenskar.com/reference/update-custom-attribute-definition.md): Update an existing custom attribute definition. Note: attribute_key_name and data_type are generally not updatable after creation.
+- [List data-source connectors](https://docs.zenskar.com/reference/list-data-source-connectors.md): List datasource given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create data-source connector](https://docs.zenskar.com/reference/create-data-source-connector.md): Creates a data source for the given organisation. The data source will be associated with the organisation.
+- [Get data-source connector](https://docs.zenskar.com/reference/get-data-source-connector.md): Fetch a data source by its ID. The data source will be associated with the organisation.
+- [Update data-source connector](https://docs.zenskar.com/reference/update-data-source-connector.md): Update an existing data source with the provided details. The data source will be associated with the organisation.
+- [List usage events](https://docs.zenskar.com/reference/list-usage-events.md): List Usage Events given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create usage event](https://docs.zenskar.com/reference/create-usage-event.md): Create a new usage event
+- [Get usage event by ID](https://docs.zenskar.com/reference/get-usage-event-by-id.md): Get usage event details by its unique identifier
+- [Update usage event](https://docs.zenskar.com/reference/update-usage-event.md): Update an existing usage event
+- [Get usage event by slug](https://docs.zenskar.com/reference/get-usage-event-by-slug.md): Get usage event details by its slug
+- [Create customer](https://docs.zenskar.com/reference/create-customer.md): Creates a new customer object in Zenskar. Customer objects represent the individuals or companies you do business with and serve for your revenue operations—they must exist before you can create contracts, generate invoices, or process payments.  The customer record stores essential billing information including contact details, billing and shipping addresses, tax identifiers, payment preferences, and custom metadata specific to your business needs. Only customer_name is required at creation—all other fields are optional, allowing you to capture minimal information initially. The customer address is an important field which is used for Regional tax calculation, make sure this field is correct for the required customers.  When integrated with external systems, newly created customers are automatically synchronized with configured platforms like Stripe, HubSpot, Zoho, or Xero. Use the external_id field to maintain references to source systems for bidirectional synchronization.
+- [Update customer](https://docs.zenskar.com/reference/update-customer.md): Updates an existing customer in the system.
+- [Delete customer](https://docs.zenskar.com/reference/delete-customer.md): Deletes a customer by ID.
+- [Patch Customer Connector Id](https://docs.zenskar.com/reference/patch-customer-connector-id.md): Updates the connector ID for a customer.
+- [Delete third-party connector](https://docs.zenskar.com/reference/delete-third-party-connector.md): Deletes a specific connector for a customer.
+- [Create customer relationships](https://docs.zenskar.com/reference/create-customer-relationships.md): Creates a relationship between two customers within the same organization
+- [List customers with filtering and pagination](https://docs.zenskar.com/reference/list-customers-with-filtering-and-pagination.md): Retrieve customers with rich filtering, sorting, and pagination.  Filter by: - Customer attributes: customer_name, email, custom_data fields. - Dates: created_at, updated_at (range filters supported). - Search: use search parameter for flexible multi-field queries.  Pagination & sorting: - limit: page size (default varies by configuration). - cursor: pass 'next' or 'previous' from response to paginate. - order: field to sort by with - prefix for descending (e.g., -created_at).  Expand: - expand: comma-separated list of related resources to include (e.g., contacts).
+- [Get customer by ID](https://docs.zenskar.com/reference/get-customer-by-id.md): Retrieve detailed information for a specific customer by their unique identifier.  Returns comprehensive customer data including: - Basic information: name, email, phone - Address details: billing and shipping addresses - Custom data: organization-specific custom fields - Metadata: creation and update timestamps  Requirements: - Customer must belong to the authenticated organization - Valid UUID format required for customer_id - Returns 404 if customer doesn't exist or is not accessible
+- [Get customer connector details](https://docs.zenskar.com/reference/get-customer-connector-details.md): Retrieve connector integration details for a specific customer by connector name.  Returns connector-specific information including: - Reference ID in the external system - Customer name - Customer email  Requirements: - Customer must belong to the authenticated organization - Valid UUID format required for customer_id - Valid connector name required (e.g., 'stripe', 'avalara', 'quickbooks', 'salesforce', 'xero', 'hubspot', 'zoho', 'adyen', 'anrok', 'dealhub', 'netsuite')  Possible errors: - 404: Customer not found - 400: No integration found for the specified connector - 400: Integration no longer available (resource deleted on connector) - 400: General processing error - 422: Invalid UUID format
+- [Create customer or guest session](https://docs.zenskar.com/reference/create-customer-or-guest-session.md): Create a unique session for a customer or guest  For customer sessions: Provide customer_id For guest sessions: Set is_guest_session=True and omit customer_id
+- [Attach external payment method](https://docs.zenskar.com/reference/attach-external-payment-method.md): Attaches an external payment method (from Stripe or other provider) to a customer. **Connector Auto-Detection:** - If 'connector' is not provided, the system will automatically detect the connector by querying resource mappings - If exactly one connector mapping exists for the customer, it will be used automatically - If multiple connector mappings exist, you must explicitly specify which connector to use - If no connector mappings exist, an error will be returned
+- [List payment methods](https://docs.zenskar.com/reference/list-payment-methods.md): List all payment methods for a customer given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Delete payment method](https://docs.zenskar.com/reference/delete-payment-method.md): Deletes a single payment method for a customer.
+- [List entitlements](https://docs.zenskar.com/reference/list-entitlements.md): List entitlement given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create entitlement](https://docs.zenskar.com/reference/create-entitlement.md): Create a new entitlement
+- [Get entitlement](https://docs.zenskar.com/reference/get-entitlement.md): Get entitlement details by its unique identifier
+- [Update entitlement](https://docs.zenskar.com/reference/update-entitlement.md): Update an existing entitlement
+- [Delete entitlement](https://docs.zenskar.com/reference/delete-entitlement.md): Delete an existing entitlement
+- [Create entitlement customer](https://docs.zenskar.com/reference/create-entitlement-customer.md): Create a new entitlement for a customer
+- [List entitlements for customer](https://docs.zenskar.com/reference/list-entitlements-for-customer.md): List entitlements assigned to a customer given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Get total customer entitlements](https://docs.zenskar.com/reference/get-total-customer-entitlements.md): Get total entitlements for a customer
+- [List customer entitlements](https://docs.zenskar.com/reference/list-customer-entitlements.md): List all entitlements assigned to a customer
+- [List unique entitlements for customer](https://docs.zenskar.com/reference/list-unique-entitlements-for-customer.md): List unique entitlements assigned to a customer
+- [Get entitlement customer](https://docs.zenskar.com/reference/get-entitlement-customer.md): Get specific entitlement details for a customer
+- [Update customer entitlement](https://docs.zenskar.com/reference/update-customer-entitlement.md): Update an existing customer entitlement
+- [Delete customer entitlement](https://docs.zenskar.com/reference/delete-customer-entitlement.md): Delete an existing customer entitlement
+- [Get Customer Entitlement by ID](https://docs.zenskar.com/reference/get-customer-entitlement-by-id.md): Get specific entitlement details for a customer by entitlement customer ID
+- [List customer entitlement balances with advanced filtering](https://docs.zenskar.com/reference/list-customer-entitlement-balances-with-advanced-filtering.md): Retrieve customer entitlement balances with comprehensive filtering, sorting, and pagination.  Filter by: - Customer: customer, customer__in (filter by specific customer IDs). - Entitlement: entitlement, entitlement__in (filter by specific entitlement IDs). - Contract: contract_id, contract_id__in (filter by contract IDs - useful for contract-specific entitlements). - Quantities: quantity, quantity_used with range filters (gt, gte, lt, lte, neq). - Dates: created_at, active_from with range filters for time-based filtering. - Status: Use quantity__gt=0 to show only active balances, or quantity_used__lt=quantity to show available balances.  Enrichment options (populate parameter): - customer: Include customer name and email details. - contract: Include contract name for entitlements granted by contracts. - product: Include product name for product-specific entitlements. - invoice: Include invoice number for invoice-generated entitlements. - Multiple: Use comma-separated values like 'customer,contract,product,invoice' for full enrichment.  Pagination & sorting: - limit: page size (1-100, default 50). - cursor: pass 'next' from previous response to paginate. - sort_key: field to sort by (id, created_at, quantity, quantity_used, active_from, expiry_at). - sort_type: 'asc' or 'desc' (default 'asc'). - search: text search across entitlement names and descriptions.  Common use cases: - Contract entitlements: Use contract_id filter to get all entitlements for a specific contract. - Customer overview: Use customer filter with populate=contract,product for complete customer entitlement view. - Low balance alerts: Use quantity__gt=0 and quantity_used__gte with percentage calculations. - Expiring entitlements: Use expiry_at__lt with future date to find soon-to-expire entitlements.
+- [List invoices](https://docs.zenskar.com/reference/list-invoices.md): List invoices given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Get invoice](https://docs.zenskar.com/reference/get-invoice.md)
+- [Get invoice by external Id](https://docs.zenskar.com/reference/get-invoice-by-external-id.md): Get invoice details by its external ID.
+- [Approve invoice](https://docs.zenskar.com/reference/approve-invoice.md): Approve an invoice by its ID.
+- [Get invoice line items](https://docs.zenskar.com/reference/get-invoice-line-items.md): API to get details about the invoice line items, features and pricing models.         This endpoint is accessible to customers to view their invoice details.
+- [Void invoice](https://docs.zenskar.com/reference/void-invoice.md): Void an invoice by its ID.
+- [Create credit note against invoice](https://docs.zenskar.com/reference/create-credit-note-against-invoice.md): Create a credit note against an invoice by its ID.
+- [Generate an invoice](https://docs.zenskar.com/reference/generate-an-invoice.md): Generate an invoice for a customer given a contract
+- [List jobs](https://docs.zenskar.com/reference/list-jobs.md): List jobs given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Get job by ID](https://docs.zenskar.com/reference/get-job-by-id.md): Retrieve a specific job by its ID
+- [Get job outcomes by filters](https://docs.zenskar.com/reference/get-job-outcomes-by-filters.md): Retrieve job outcomes based on various filters such as job type, status, and date range. This endpoint supports pagination and searching.
+- [Get job outcomes by ID](https://docs.zenskar.com/reference/get-job-outcomes-by-id.md): Retrieve job outcomes for a specific job by its ID. This endpoint allows you to fetch the outcomes of a job, including logs and status.
+- [Get job with sub-jobs](https://docs.zenskar.com/reference/get-job-with-sub-jobs.md): Retrieve a job along with its sub-jobs if it's a parent job. This endpoint is useful for viewing the status and progress of split jobs.
+- [Get invoice payments](https://docs.zenskar.com/reference/get-invoice-payments.md): Get all payments for a specific invoice
+- [Get payment by ID](https://docs.zenskar.com/reference/get-payment-by-id.md): Get payment details by its unique identifier
+- [Update payment](https://docs.zenskar.com/reference/update-payment.md): Update an existing payment
+- [Delete manual payment](https://docs.zenskar.com/reference/delete-manual-payment.md): Delete an existing manual payment
+- [Get payments](https://docs.zenskar.com/reference/get-payments.md): Get a paginated list of all payments
+- [Create payment](https://docs.zenskar.com/reference/create-payment.md): Create a new payment
+- [Create invoice charge](https://docs.zenskar.com/reference/create-invoice-charge.md): Create a new charge for a specific invoice
+- [Edit manual payment](https://docs.zenskar.com/reference/edit-manual-payment.md): Edit an existing manual payment
+- [Refund payment](https://docs.zenskar.com/reference/refund-payment.md): Create a refund for an existing payment
+- [List plans](https://docs.zenskar.com/reference/list-plans.md): List plans given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create plan](https://docs.zenskar.com/reference/create-plan.md): Create a new plan for an organization
+- [Get plan by Id](https://docs.zenskar.com/reference/get-plan-by-id.md): Retrieve a specific plan by its ID
+- [Update plan](https://docs.zenskar.com/reference/update-plan.md): Update an existing plan by its ID
+- [Delete plan by Id](https://docs.zenskar.com/reference/delete-plan-by-id.md): Delete a specific plan by its ID
+- [Create plan phase](https://docs.zenskar.com/reference/create-plan-phase.md): Create a new phase for a plan
+- [Update plan phase](https://docs.zenskar.com/reference/update-plan-phase.md): Update an existing phase for a plan by its ID
+- [Delete plan phase](https://docs.zenskar.com/reference/delete-plan-phase.md): Delete a specific phase from a plan by its ID
+- [Create plan phase pricing](https://docs.zenskar.com/reference/create-plan-phase-pricing.md): Create pricing for a plan phase
+- [Update plan phase pricing](https://docs.zenskar.com/reference/update-plan-phase-pricing.md): Update pricing for a plan phase by its ID
+- [Delete plan phase pricing by Id](https://docs.zenskar.com/reference/delete-plan-phase-pricing-by-id.md): Delete pricing for a specific plan phase by its ID
+- [Create new version](https://docs.zenskar.com/reference/create-new-version.md): Create a new version of an existing plan
+- [List products](https://docs.zenskar.com/reference/list-products.md): List products given a `next` or `previous` cursor and a limit. If cursor is not provided you will get the beginning of the search set
+- [Create product](https://docs.zenskar.com/reference/create-product.md): Creates a new product in the organization.
+- [Get product](https://docs.zenskar.com/reference/get-product.md): Fetches a product by its ID.
+- [Update product](https://docs.zenskar.com/reference/update-product.md): Updates a product by its ID.
+- [Delete product](https://docs.zenskar.com/reference/delete-product.md): Deletes a product by its ID.
+- [Get product pricings](https://docs.zenskar.com/reference/get-product-pricings.md): Fetches all pricing models associated with a product.
+- [Create product pricing](https://docs.zenskar.com/reference/create-product-pricing.md): Creates a new pricing model for a product.
+- [Get product pricing](https://docs.zenskar.com/reference/get-product-pricing.md): Fetches a specific pricing model by its ID.
+- [Update product pricing](https://docs.zenskar.com/reference/update-product-pricing.md): Updates an existing pricing model for a product.
+- [Delete product pricing](https://docs.zenskar.com/reference/delete-product-pricing.md): Deletes a specific pricing model for a product by its ID.
+- [Get product bundle pricing](https://docs.zenskar.com/reference/get-product-bundle-pricing.md): Fetches a specific product bundle pricing by its ID.
+- [Update product bundle pricing](https://docs.zenskar.com/reference/update-product-bundle-pricing.md): Updates an existing pricing model for a product bundle.
+- [Create product bundle pricing](https://docs.zenskar.com/reference/create-product-bundle-pricing.md): Creates a new pricing model for a product bundle.
+- [List tax categories](https://docs.zenskar.com/reference/list-tax-categories.md): List tax categories (Zenskar codes) for the organisation with pagination.
+- [Create tax category](https://docs.zenskar.com/reference/create-tax-category.md): Create a tax category. System generates a unique Zenskar code (e.g. ZEN_TAX_00001).
+- [Get tax category](https://docs.zenskar.com/reference/get-tax-category.md): Get a tax category by Zenskar code (e.g. ZEN_TAX_00001).
+- [Update tax category](https://docs.zenskar.com/reference/update-tax-category.md): Update a tax category by Zenskar code (e.g. ZEN_TAX_00001).
+- [List jurisdiction rates](https://docs.zenskar.com/reference/list-jurisdiction-rates.md): List tax jurisdiction rates for a business entity. Optionally filter by tax category ID.
+- [Create jurisdiction rate](https://docs.zenskar.com/reference/create-jurisdiction-rate.md): Create a jurisdiction rate for a business entity (destination → tax group).
+- [Get jurisdiction rate](https://docs.zenskar.com/reference/get-jurisdiction-rate.md): Get a single jurisdiction rate by ID.
+- [Update jurisdiction rate](https://docs.zenskar.com/reference/update-jurisdiction-rate.md): Update a jurisdiction rate by ID.
+- [List tax rates](https://docs.zenskar.com/reference/list-tax-rates.md): List expanded tax rates for a jurisdiction rate.
+- [Get tax rate](https://docs.zenskar.com/reference/get-tax-rate.md): Get a single tax rate by ID.
+- [Update tax rate](https://docs.zenskar.com/reference/update-tax-rate.md): Update a tax rate by ID.
+- [Resolve the applicable tax rate for a destination](https://docs.zenskar.com/reference/resolve-the-applicable-tax-rate-for-a-destination.md): Same code path billing uses — given a tax category + destination + date, return the single applicable rate breakdown plus its fingerprint. 404 when no row matches; 422 when the configuration is ambiguous (multiple rows match — caller must close one's effective_to or deactivate it).
+- [List tags](https://docs.zenskar.com/reference/list-tags.md): List tags
+- [Upsert tags](https://docs.zenskar.com/reference/upsert-tags.md): Upsert tags
+- [List customer addresses](https://docs.zenskar.com/reference/list-customer-addresses.md): Retrieve all addresses associated with a customer, with optional filtering by address type.  **Filtering:** - `billing`: Returns only addresses marked as default billing - `shipping`: Returns only addresses marked as default shipping - No filter: Returns all addresses for the customer  **Address Types:** A single address can serve as both billing and shipping default simultaneously. This is determined by the `is_default_billing` and `is_default_shipping` flags.  **Deduplication:** Addresses are automatically deduplicated based on their content hash. If the same address data is used for both billing and shipping, only one record exists with both flags set.
+- [Create customer address](https://docs.zenskar.com/reference/create-customer-address.md): Create a new address for a customer.  **Address Deduplication:** Addresses are automatically deduplicated using a content hash. If you create an address with the same data as an existing address, the system will update the existing address's default flags instead of creating a duplicate.  **Default Address Behavior:** - Setting `is_default_billing: true` will unset the flag on any other address - Setting `is_default_shipping: true` will unset the flag on any other address - A single address can be both default billing and default shipping  **Address Validation:** New addresses are created with `validation_status: pending`. Address validation can be triggered separately through integrated tax calculation services (e.g., Avalara).  **Country Code:** Use ISO 3166-1 alpha-2 country codes (e.g., US, CA, GB, DE).
+- [Get customer address](https://docs.zenskar.com/reference/get-customer-address.md): Retrieve detailed information for a specific address by its unique identifier.  Returns comprehensive address data including: - Full address details (lines, city, state, zip, country) - Default flags (is_default_billing, is_default_shipping) - Validation status for tax calculation purposes - Metadata (creation and update timestamps)  **Requirements:** - Address must belong to the authenticated organization - Valid UUID format required for both customer_id and address_id - Returns 404 if address doesn't exist or has been deleted
+- [Update customer address](https://docs.zenskar.com/reference/update-customer-address.md): Update an existing address with partial data. Only provided fields will be updated.  **Partial Updates:** This endpoint supports partial updates - only include fields you want to change. Omitted fields will retain their current values.  **Default Flag Behavior:** - Setting `is_default_billing: true` will unset the flag on all other addresses - Setting `is_default_shipping: true` will unset the flag on all other addresses - Only one address can be default billing and one can be default shipping at a time  **Duplicate Prevention:** If updating address fields would result in a duplicate of another existing address, the update will be rejected with a `DUPLICATE_ADDRESS` error. This ensures data integrity and prevents confusion in downstream systems.  **Validation Status:** When address fields are modified, the validation_status may need to be re-verified through tax calculation services.
+- [Delete customer address](https://docs.zenskar.com/reference/delete-customer-address.md): Delete an address from the customer's address book.  **Soft Delete:** This operation performs a soft delete - the address record is marked as deleted but retained in the database for audit purposes. Deleted addresses will not appear in list queries.  **Considerations:** - Addresses referenced by existing invoices or contracts remain in those records - Consider updating another address as default before deleting a default address - Deleted addresses cannot be recovered through the API  **Requirements:** - Address must exist and belong to the authenticated organization - Valid UUID format required for both customer_id and address_id

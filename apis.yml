@@ -1,22 +1,67 @@
 aid: zenskar
 name: Zenskar
-description: 'Zenskar is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Zenskar is an AI-native revenue automation and usage-based billing platform for
+  SaaS and subscription businesses. Its order-to-cash suite covers contracts,
+  flexible pricing models, usage metering, invoicing, payments, collections,
+  credit notes, and revenue recognition/accounting, exposed through a REST API
+  (api.zenskar.com), an official hosted Model Context Protocol (MCP) server with
+  103 tools, webhook alerts, and 100+ data, ERP, and CRM integrations including
+  Stripe, Salesforce, NetSuite, QuickBooks, BigQuery, and Snowflake. It is built
+  to replace finance spreadsheets and manual billing workarounds for finance teams.
 url: https://raw.githubusercontent.com/api-evangelist/zenskar/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://zenskar.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-stub
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cloud
-apis: []
+- Billing
+- Usage-Based Billing
+- Revenue Automation
+- Subscription Management
+- Revenue Recognition
+- Invoicing
+- FinTech
+- Order-to-Cash
+- MCP
+apis:
+- name: Zenskar API
+  description: >-
+    Zenskar's REST API for billing, contracts, usage metering, invoicing,
+    payments, credit notes, and accounting/revenue recognition (166+ documented
+    operations).
+  humanURL: https://docs.zenskar.com/reference
+  baseURL: https://api.zenskar.com
+  tags:
+  - Billing
+  - Invoicing
+  - Usage-Based Billing
+  - Accounting
+  properties:
+  - type: Authentication
+    url: authentication/zenskar-authentication.yml
+  - type: Conventions
+    url: conventions/zenskar-conventions.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +70,46 @@ maintainers:
 common:
 - type: Website
   url: https://zenskar.com/
+- type: DeveloperPortal
+  url: https://docs.zenskar.com/
+- type: Documentation
+  url: https://docs.zenskar.com/docs/introduction-to-zenskar
+- type: APIReference
+  url: https://docs.zenskar.com/reference
+- type: GettingStarted
+  url: https://docs.zenskar.com/docs/quickstart-guide
+- type: Authentication
+  url: authentication/zenskar-authentication.yml
+- type: Conventions
+  url: conventions/zenskar-conventions.yml
+- type: Idempotency
+  url: conventions/zenskar-conventions.yml
+- type: MCPServer
+  url: mcp/zenskar-mcp.yml
+- type: Webhooks
+  url: asyncapi/zenskar-webhooks.yml
+- type: Conformance
+  url: conformance/zenskar-conformance.yml
+- type: DataModel
+  url: data-model/zenskar-data-model.yml
+- type: LLMsTxt
+  url: llms/zenskar-llms.txt
+- type: DomainSecurity
+  url: security/zenskar-domain-security.yml
+- type: TrustCenter
+  url: https://compliance.zenskar.com/
+- type: Blog
+  url: https://zenskar.com/blog
+- type: Pricing
+  url: https://zenskar.com/pricing
+- type: SignUp
+  url: https://app.zenskar.com
+- type: TermsOfService
+  url: https://zenskar.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://zenskar.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

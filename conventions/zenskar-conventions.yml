@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.zenskar.com/reference
+docs:
+  authentication: https://docs.zenskar.com/reference/authentication
+  idempotency: https://docs.zenskar.com/reference/idempotent-requests
+  datetime: https://docs.zenskar.com/reference/datetime-format
+authentication:
+  style: api-key
+  header: x-api-key
+  bearer_jwt_supported: true
+  cross_link: authentication/zenskar-authentication.yml
+idempotency:
+  supported: true
+  docs: https://docs.zenskar.com/reference/idempotent-requests
+  notes: >-
+    Zenskar publishes a dedicated "Idempotent requests" reference page. Mutating
+    (POST) requests can be safely retried using an idempotency key so a repeated
+    call does not create duplicate resources.
+pagination:
+  style: cursor
+  params: [next, previous, limit]
+  response_fields: [next, previous]
+  notes: >-
+    List endpoints (contracts, credit notes, contacts, invoices, business
+    entities, billable metrics, etc.) use cursor-based pagination. Pass a `next`
+    or `previous` cursor plus a `limit`; when no cursor is supplied the first page
+    of the result set is returned.
+datetime:
+  format_docs: https://docs.zenskar.com/reference/datetime-format
+  notes: Dedicated DateTime format reference page defines timestamp encoding.
+versioning:
+  scheme: uri-path
+  base_url: https://api.zenskar.com
+  notes: >-
+    API is served from api.zenskar.com; the reference does not publish a formal
+    version-deprecation policy.
+error_envelope:
+  cross_link: null
+  notes: >-
+    A machine-readable RFC 9457 problem+json envelope was not confirmed from the
+    public docs; error semantics are documented per-operation in the API reference.
+rate_limiting:
+  signaled: unknown
+  notes: Rate-limit headers not confirmed from public documentation.

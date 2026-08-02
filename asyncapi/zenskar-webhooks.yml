@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+type: Webhooks
+source: https://docs.zenskar.com/docs/webhook-alerts
+docs: https://docs.zenskar.com/docs/webhook-alerts
+spec_type: null
+notes: >-
+  Zenskar documents webhook alerts as an HTTP callback mechanism for event-driven
+  communication between systems ("A webhook is an HTTP-based callback function
+  that allows lightweight, event-driven communication between two APIs"). A
+  published AsyncAPI document was not found; this artifact captures the webhook
+  surface only. The specific event-type catalog is documented on the webhook
+  alerts page and in the dashboard notification settings and is not enumerated
+  here to avoid fabricating event names.
+delivery:
+  style: http-callback
+  configuration: dashboard (webhook alerts / notification settings)
