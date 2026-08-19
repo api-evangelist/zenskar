@@ -12,12 +12,12 @@ server:
   hosted: true
   transport: http
   auth:
-    notes: >-
-      Token type is auto-detected. JWT tokens (format eyJ...) are sent as
-      `Authorization: Bearer <token>`; API keys are sent as `x-api-key: <token>`.
-      Credentials resolve from direct tool parameters, then the
-      ZENSKAR_ORGANIZATION and ZENSKAR_AUTH_TOKEN environment variables.
-    env: [ZENSKAR_ORGANIZATION, ZENSKAR_AUTH_TOKEN]
+    notes: 'Token type is auto-detected. JWT tokens (format eyJ...) are sent as `Authorization: Bearer
+      <token>`; API keys are sent as `x-api-key: <token>`. Credentials resolve from direct tool parameters,
+      then the ZENSKAR_ORGANIZATION and ZENSKAR_AUTH_TOKEN environment variables.'
+    env:
+    - ZENSKAR_ORGANIZATION
+    - ZENSKAR_AUTH_TOKEN
 tool_count: 103
 tool_categories:
 - Customers, Contacts, Addresses, Payment Methods
@@ -27,9 +27,13 @@ tool_categories:
 - Accounting (GL accounts, journal entries, revenue recognition)
 - Billable Metrics, Usage Events, Custom Attributes, Business Entities
 - Jobs & Utilities
-notes: >-
-  Zenskar publishes an official hosted MCP server exposing 103 tools that mirror
-  its REST API surface across billing, contracts, invoicing, payments, and
-  accounting. Individual tool names are documented at the MCP reference above;
-  only the documented category groupings and tool count are recorded here (no
-  tool names invented).
+notes: Zenskar publishes an official hosted MCP server exposing 103 tools that mirror its REST API surface
+  across billing, contracts, invoicing, payments, and accounting. Individual tool names are documented
+  at the MCP reference above; only the documented category groupings and tool count are recorded here
+  (no tool names invented).
+deployment:
+  mode: remote
+  verified: searched
+  tools: 103
+  checked: '2026-08-12'
+  source: catalog MCP census
