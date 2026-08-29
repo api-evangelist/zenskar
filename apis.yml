@@ -10,6 +10,17 @@ description: >-
   Stripe, Salesforce, NetSuite, QuickBooks, BigQuery, and Snowflake. It is built
   to replace finance spreadsheets and manual billing workarounds for finance teams.
 url: https://raw.githubusercontent.com/api-evangelist/zenskar/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
