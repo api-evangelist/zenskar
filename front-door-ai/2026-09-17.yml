@@ -1,0 +1,31 @@
+# Front Door AI Index — zenskar — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zenskar
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: zenskar.com
+  final_host: www.zenskar.com
+  ownership: own
+  owner: zenskar
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 13
+  host_score: 13
+  density: 12.5
+  words: 1040
+  tiers:
+    agentic: 2
+    core: 9
+    model: 2
+  ambiguous: 13
+  top_terms:
+    agent: 10
+    AI: 9
+    automation: 3
+    AI agent: 1
+    ChatGPT: 1
+    Claude: 1
+    MCP: 1
